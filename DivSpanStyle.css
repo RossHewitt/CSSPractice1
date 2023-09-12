@@ -1,0 +1,44 @@
+p{
+    margin:0;
+    background-color: #fff;
+}
+
+.bluebox {
+    background-color: blue;
+    color:orange;
+    height: 100px;
+    width: 100px;
+    padding:10px;
+    border-width:10px 5px 15px 5px;
+    border-color: black green orange yellow;
+    border-style:ridge;
+    border-radius:80px;
+}
+
+.greenbox {
+    background: rgba(0, 128, 0, 0.3);
+    color:red;
+    height: 100px;
+    width: auto;
+    margin:20px;
+    background-image: url(images/Untitled.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-origin: content-box;
+    outline-style: double; 
+    outline-width: thick;
+    outline-color: red;
+}
+
+.yellowbox {
+    background-color: yellow;
+    color:purple;
+    height: 100px;
+    width: auto;
+    padding:10px 20px 10px 30px;
+    margin:10px;
+}
+
+.great {
+    font-size:300%;
+}
